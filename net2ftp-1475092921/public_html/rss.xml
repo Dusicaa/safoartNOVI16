@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+<channel>
+        <item>
+	         <title>Safoart</title>
+	         <description>Ikone i sakralne slike</description>
+	         <link>http://www.safoart.esy.es/ikone.php</link>
+	   </item>
+		<item>
+			<title>Safoart</title>
+			<description>Morski motivi</description>
+			<link>http://www.safoart.esy.es/morskimotivi.php</link>
+		</item>
+		<item>
+			<title>Safoart</title>
+			<description>Razne slike</description>
+			<link>http://www.safoart.esy.es/razno.php</link>
+		</item>
+		<item>
+			<title>Safoart</title>
+			<description>Vitezovi</description>
+			<link>http://www.safoart.esy.es/vitezovi.php</link>
+		</item>
+		<item>
+			<title>Safoart</title>
+			<description>Prodaja slika</description>
+			<link>http://www.safoart.esy.es/prodaja.php</link>
+		</item>
+</channel>
+
+</rss>

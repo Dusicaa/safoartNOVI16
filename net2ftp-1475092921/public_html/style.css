@@ -1,0 +1,568 @@
+*{padding:0px;
+  margin:0px;
+  outline:0
+  
+ }
+  
+ body{ 
+     font-family:  Arial,Helvetica,sans-serif;
+	  background-repeat:no-repeat;
+	  background-attachment:fixed;
+	  
+	 color:#104E8B;
+	 //* font-size:15pt;*/
+	  }
+  #omot{
+	  
+  width:1020px;
+  
+  margin:0 auto;
+
+  }
+
+  /*header.php */
+  
+  #header{width:1020px;border-bottom:1px solid #E0D8E0;background-color:#FFFFFF;display:block;}
+ #loginforma{width:300px;display:block;float:left;} 
+ .styled{width:150px;height:20px;border: 3px double #E5E5E5;
+	padding: 2px 3px;}
+  .ulogujse {
+	   margin-top:5px;
+	   width:80px;
+	padding:2px;
+	background-color:#A9BCF5;
+	border-radius: 5px;
+}
+  #logo{display:inline;float:left;width:320px;}
+  #logo a{text-decoration:none;}
+ /*  #slikaLogo{/* position:relative;right:25px; */width:100px;height:150px;float:left;padding:5px 30px;margin:5px 30px;} */
+  #textLogo{width:160px;display:inline;float:left;margin:10px 100px;padding-left:20px;padding-right:20px;}
+ 
+  #textLogo h1{
+	  color:#104E8B;
+	  text-align:center;
+	  padding:20px 10px 10px 10px;
+	 
+	  text-shadow:5px 5px #a3c2c2;
+	  font-size:60px;
+	  font-style:oblique;
+	  font-family:Courier New;
+	  }
+  #search_descr{width:400px;display:inline;float:right;text-align:center;}
+  .descr{width:300px;display:block;height:30px;float:right;}
+  .search{width:300px;display:block;text-align:center;float:right;}
+  #tbTrazi{width:130px;margin:0px;}
+  #livesearch{background:#aaa;opacity:0.9}
+  #livesearch a{color:white;}
+  #livesearch a:hover{color:#104E8B;}
+  
+  /*log start*/
+
+
+  /*log end*/
+/*navigacija*/
+
+
+.nav {width:1020px;height:36px; background:#aaa; color:#fff; text-shadow:1px 1px #888; z-index:1000;margin:auto;}
+#menu{width:1020px;margin:auto;text-align:center;}
+
+.menu a {float:left;  color:#eee; text-decoration:none; width:120px; height:28px; padding-top:8px}
+.menu span {float:left; color:#eee; text-decoration:none; width:120px; height:28px; padding-top:8px}
+.menu a:hover {color:#fff}
+.menu {list-style:none; font:16px Arial,Verdana; text-align:center; width:600px; margin:0 auto}
+.menu li {position:relative; float:left; width:120px; z-index:1000}
+.menu ul {display:none; position:absolute; font:normal 13px Arial,Verdana; top:36px; left:0; background:#aaa; display:none; list-style:none}
+.menu ul li {float:none; border-top:1px solid #ccc; width:120px}
+.menu ul li a, li.menuhover li a, li.menuhover li.menuhover li a {float:none; display:block; background:none; height:28px; padding-top:5px}
+.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {background:#999; color:#fff}
+.menu ul li span, li.menuhover li span, li.menuhover li.menuhover li span {float:none; display:block; background:none; height:22px; padding-top:5px}
+.menu ul ul {left:120px; top:0}
+.menu li.submenu {font-weight:bold}
+.menu li.noborder {border-top:none}
+li.menuhover a, li.menuhover li.menuhover a {color:#fff; background:#999}
+li.menuhover span, li.menuhover li.menuhover span {color:#fff; background:#999}
+
+
+/*navigacija-kraj*/
+  /*slider.php*/
+  #slider{
+	  height:400px;
+	  width:1020px;
+	  border-bottom:1px solid #E0D8E0;
+	  display:block; 
+	  overflow: hidden; 
+	  position: relative;
+	  background-color:#FFFFFF;
+	  margin:auto;
+	  }
+  #slider1_container{}
+  
+
+				
+				 
+  /*sredina.php*/
+ #sredina{width:1020px;
+ background-color:#FFFFFF;
+ display:block;
+ margin:auto;
+ }
+
+  
+  
+  /*footer.php*/
+  #footer{height:60px;width:1020px;background:#aaa;text-align:center;display:block;}
+  #footer img{padding-top:10px;}
+  #footer ul{line-height:50px;}
+  #footer ul li {list-style:none;text-decoration:none;display:inline;}
+  #footer li a{display:inline;padding:5px;}
+  #footer li a:hover{color:#FF0000;text-decoration:underline;}
+  
+  
+ 
+ .cisti{clear:both;}
+
+
+
+
+ /*galerija 1*/
+#morskimotivi,#vitezovi,#razno,#ikone{
+	 /* min-height:1271px; */
+	 width:1020px;
+	 border-bottom:1px solid #E0D8E0;
+	 display:block; 
+	 overflow: hidden;
+	 position: relative;
+	 background-color:#FFFFFF;
+	 margin:auto;
+	 padding-bottom:5px;
+	 padding-top:5px;
+	 }
+ #morskimotivi .galSlike,#vitezovi .galSlike,#razno .galSlike,#ikone .galSlike{
+	 width:30%;
+	 height:30%;
+	 margin:10px;
+	 padding:5px;
+	
+	 } 
+	
+	
+	 
+	 /*galerija*/
+	 /* Shrink wrap strategy 1 */
+ .galSlike{
+    float: left;
+}
+.galSlike img {
+    display: block;
+}
+
+
+/* Shrink wrap strategy 2 */
+.galSlike {
+    display: inline-block;
+}
+.galSlike img {
+    vertical-align: bottom;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 40%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Columns */
+@media only screen and (max-width: 700px){
+   
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+   
+}
+
+/* Clear Floats */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+
+/*registracija*/
+.forma{
+	border:1px solid #000000;
+	margin:50px auto;
+	width:400px;
+	height:250px;
+	padding:50px;
+	background-color:#EFEFFB;
+	}
+.naslov_forme{text-align:center;padding-bottom:10px;}
+.naziv{padding:3px;}
+.text-box{width:170px;background-color:#F5EFFB;}
+.text-box span{padding:5px;}
+#dan{width:40px;background-color:#F5EFFB;}
+#mesec{width:50px;background-color:#F5EFFB;}
+#godina{width:53px;background-color:#F5EFFB;}
+#submit{margin-left:110px;}
+#reset{margin-left:20px;}
+.dugme{
+	width:80px;
+	padding:2px;
+	background-color:#A9BCF5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+	
+	
+	/*o meni*/ 
+	
+#tekstOmeni{
+	float:left;
+	margin:50px;
+	width:500px;
+	height:200px;
+	padding:50px;
+	background-color:#EFEFFB;
+	letter-spacing:1px;
+	}
+#slikaOmeni{
+	float:right;
+	margin-left:100px;
+	width:220px;
+	height:300px;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+
+
+/*admin*/
+#adminMenu{
+display:block;
+margin-left:125px;
+}
+
+#adminPonuda{
+display:block;
+margin-left:5px;
+}
+#adminKorisnici{
+display:block;
+border:2px solid #706a38;
+margin-top:30px;
+width:518px;
+margin-left:43px;
+}
+
+/*sredina*/
+
+
+
+/* #levo{float:left;width:580px;margin:10px auto;} */
+
+.post{height:auto;width:980px;background-color:#eee;opacity:0.9;padding:10px;font-family:cursive;margin:10px auto;}
+.postNaslov{display:block;text-align:center;float:left;width:500px;}
+.postSlika{display:inline;margin:10px;float:right;}
+.postTekst{display:block;float:left;width:500px;}
+
+
+
+
+/* #desno{float:right;width:400px;margin:10px;} */
+
+#komentar  h2{margin:10px;}
+#komentar{height:auto;margin: 0 auto 10px auto;text-align:center;padding:10px;background-color:#eee;opacity:0.9;}
+#komentar input ,#komentar textarea{margin:5px;}
+#anketa{margin:auto;text-align:center;padding:10px;background-color:#eee;opacity:0.9;}
+#anketa  h2{margin-top:10px;padding-bottom:10px;}
+#anketa form{margin:auto;}
+#rbDa,#rbNe,#rbOnako{float:left;}
+#anketa label{padding-left:10px;float:left;}
+#anketa table{margin:auto;}
+#anketa table tr{padding:2px;}
+#anketaPrikaz{display:block;}
+
+
+
+
+
+/*prodaja i korpa*/
+.clearfix:after { /* !!! */ 
+    visibility:hidden; 
+	display:block;
+	font-size:0;
+	clear:both; 
+	height:0;}
+.clearfix { 
+display: block; 
+margin:0 auto;
+ zoom:1;}
+/*  #red{display:inline-block;width:1020px;margin:10px;} */
+.artikl{
+	text-align:center;
+	display:inline-block;
+	margin:15px 0px 14px 0px;
+	border-bottom:1px solid #cfcfcf;
+	padding:0px 0px 14px 0px;
+	width:300px; 
+	overflow:hidden;
+	}
+.slika_artikla {
+	margin:0 auto;
+	padding:0;  
+	/* height:230px; width:226px */ }
+.slika-artikla img {
+	border:1px solid #d6d6d6;
+	}
+.cena_artikla {
+	color:#BB9331; 
+	font-weight:bold; 
+	font-size:17px;
+	margin:0px 0px 5px 0px; 
+	padding:0;
+	}
+.naslov_artikla{
+	margin:0px 5px 10px 5px; 
+	padding:0;
+	line-height:16px;}
+.naslov-artikla a {
+	color:#1C326B; 
+	text-decoration:none; 
+	font-size:15px;
+	}
+.dodaj-u-korpu {
+	overflow: visible;
+	width: 233px; 
+	height:30px;}
+.chbKorpa{
+	width:25px;
+	height:18px;  
+	display:block;
+	float:left; 
+	margin:6px 4px 6px 6px;	}
+.u-korpu{
+	width:100px;
+	height:30px; 
+	overflow:hidden;
+/* 	padding:10px 5px 3px 10px; */
+	text-align:left; 
+	background:transparent url(img/u-korpu.png) no-repeat;
+    border:none; 
+    color:#fff; 
+    font-size:12px; 
+    cursor:pointer; 
+    display:block; 
+    float:left;
+    margin:-6px 4px 0 6px;	}
+ 
+.kolicina {
+	width:55px;
+	font-size:12px; 
+	text-align:center; 
+	display:block;
+	float:left; 
+	margin:6px 14px 0 16px;
+	}
+
+.dugme-izmeni {
+	padding:0px;
+	font-size:10px;
+	cursor:pointer;
+	}
+
+.ukupna-cena {
+    color:#434343;
+	}
+.ukupna-cena b {
+	font-size:14px;
+	color:#a4b03c;
+	}
+.ukupna-cena span {
+	font-size:13px;
+	}
+.okvir-u-sadrzaju {
+	margin:0px 0px 10px 0px;
+	}
+.okvir-u-sadrzaju p {
+	color:#7c7c7c;
+	font-size:14px;
+	}
+.okvir-u-sadrzaju p a {
+	color:#BC0068;
+	text-decoration:none
+	}
+.okvir-u-sadrzaju p a:hover {
+	text-decoration:underline
+	}
+.okvir-u-sadrzaju .naslov,
+.okvir-u-sadrzaju h1.naslov {
+	background:#1c326b url(img/naslov-prelaz.png) repeat-x scroll top left; 
+	padding:7px 0px 6px 10px;
+	margin:0; 
+	font-size:15px;
+	color:#fff; 
+	height:20px;
+	}
+.okvir-u-sadrzaju h1.naslov span {
+	color:#999;
+	}
+.oblo4 {
+	-webkit-border-radius:4px; 
+	-moz-border-radius: 4px;
+	border-radius:4px;
+	}
+
+#velika-korpa {
+	border-collapse:collapse;
+	margin:auto;
+	width:700px;
+	}
+#velika-korpa th { 
+font-size:13px; 
+color:#6b6b6b; 
+font-weight:normal; 
+text-align:center;
+}
+#velika-korpa td {
+	padding:5px 10px 5px 10px;
+	background:#fff;
+	border-collapse:collapse; 
+	border:1px solid #d6d6d6;
+	color:#434343;
+	}
+#nazad-u-kupovinu {
+	padding:5px 0 0 10px;
+	font-size:15px;
+	background:url(img/bg-opcije.png) no-repeat;
+	width:690px;
+	height:24px; 
+	color:#a4b03c;margin:auto;
+	}
+#nazad-u-kupovinu a {
+	font-size:15px; 
+	color:#434343;
+	text-decoration:none;
+	}
+#nazad-u-kupovinu a:hover {
+	color:#a4b03c;
+	}
+.crvena-veza {
+	color:#df3721;
+	text-decoration:none;
+	background:url(img/bg-crvena-veza.png) no-repeat left;
+	padding-left:22px;
+	}
+
+.naslov-korpe { 
+    background:url(img/bg-naslov-korpe.png) no-repeat; 
+    width:660px;
+   height:31px; 
+   margin:7px auto 10px auto;
+   padding:12px 0 0 40px; 
+   font-size:20px;
+	color:#9f6bb7;
+		  }
+
+.ljubicasto-dugme {
+    background:#C4006C;
+    border: 1px solid #800047;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1px 4px;
+}
+#naruci-korpu {
+	margin-top:10px; 
+	}
+#naruci-korpu a {
+	background:url(img/bg-naruci-korpu.png) no-repeat; 
+    width:262px; 
+    height:31px;
+    display:block;
+    color:#FFF; 
+    font-size:14px; 
+    text-transform:uppercase;
+    text-decoration:none;
+    font-weight:bold; 
+    padding:10px 0 0 13px;
+    margin:auto;
+ }
+/*rss*/
+#rss{margin:10px auto;}
+#rssVesti{width:1020px;margin:20px auto;}
+.borderimage{
+ border: 30px solid transparent;
+    padding: 0px;
+    -webkit-border-image: url(img/border.png) 30% round; /* Safari 3.1-5 */
+    -o-border-image: url(img/border.png) 30% round; /* Opera 11-12.1 */
+border-image: url(img/border.png) 30% round;}
+ 
